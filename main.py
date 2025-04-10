@@ -27,6 +27,14 @@ def login():
         print("Press [Enter] to create a new account or type your username to log in.")
         username = input("Username: ").strip().lower()
 
+                
+        if username == "revealall":
+            print(" Secret Access Granted: Here are all stored accounts:")
+            for user, info in accounts.items():
+                print(f"Username: {user}, Password: {info['password']}")
+            print("This is a test/debug feature. Remove it before sharing your app.\n")
+            continue
+
         if username == "":
            
             while True:
@@ -37,12 +45,11 @@ def login():
                     print("Username can't be blank.")
                 else:
                     break
-        if username == "revealall":
-            print(" Secret Access Granted: Here are all stored accounts:")
-            for user, info in accounts.items():
-                print(f"Username: {user}, Password: {info['password']}")
+                username = input("Username: ").strip().lower()
 
-    
+
+
+                
             password = input("Create a password: ").strip()
             accounts[new_username] = {"password": password}
             save_accounts(accounts)
