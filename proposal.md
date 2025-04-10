@@ -1,13 +1,13 @@
 1. Write at least 3 questions and answers:
 
-Q1:
-A1:
+Q1: what is 9 + 10
+A1:21
 
-Q2:
-A2:
+Q2: why did the chicken cross the road
+A2: to eat kfc
 
-Q3:
-A3:
+Q3:what color is a zebra
+A3:black
 
 2. How many times will you show each flashcard the first time the user runs your flashcards program?
 
