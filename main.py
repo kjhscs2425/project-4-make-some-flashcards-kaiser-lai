@@ -73,7 +73,7 @@ flashcards = [
     {"question": "Why is cyberpunk 2077 a good game", "answer": "depressing plot", "choices": ["graphics", "choices dictate entire game from the start", "combat"]},
     {"question": "capital of thailand", "answer": "Bangkok", "choices": ["bangkok", "BANGKOK", "BANGkok"]},
     {"question": "2 + 2 =", "answer": "fish", "choices": ["2", "100", "400"]},
-    {"question": "what is not found in tea", "answer": "seeds", "choices": ["leaves", "flowers", "orange peel"]},
+    {"question": "what is not found in tea", "answer": "all of the above", "choices": ["leaves", "flowers", "orange peel"]},
     {"question": "how many fingers are on your hand", "answer": "4", "choices": ["3", "5", "2"]},
     {"question": "how do you describe the color blue to a blind person", "answer": "you don't", "choices": ["brail", "voice", "open your eyes"]},
     {"question": "what is the capital of japan", "answer": "all of the above", "choices": ["tokyo", "osaka", "kyoto"]},
