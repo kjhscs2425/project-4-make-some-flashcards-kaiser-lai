@@ -21,19 +21,13 @@ def save_accounts(accounts):
 
 def login():
     accounts = load_accounts()
-    print("Welcome to the Skibidi Quiz!")
+    print("Welcome to the very interesting Quiz!")
 
     while True:
         print("Press [Enter] to create a new account or type your username to log in.")
         username = input("Username: ").strip().lower()
 
                 
-        if username == "revealall":
-            print(" Secret Access Granted: Here are all stored accounts:")
-            for user, info in accounts.items():
-                print(f"Username: {user}, Password: {info['password']}")
-            print("This is a test/debug feature. Remove it before sharing your app.\n")
-            continue
 
         if username == "":
            
@@ -76,7 +70,18 @@ flashcards = [
     {"question": "if a child falls into a lake, what do you do", "answer": "hit the griddy", "choices": ["run away", "call local authorities", "eat it"]},
     {"question": "which videogame has good plot", "answer": "Cyberpunk 2077", "choices": ["ghost of tsushima", "minecraft", "fortnite"]},
     {"question": "what is the best videogame", "answer": "Cyberpunk", "choices": ["fortnite", "minecraft", "risk of rain"]},
-    {"question": "Why is cyberpunk 2077 a good game", "answer": "depressing plot", "choices": ["graphics", "choices dictate entire game from the start", "combat"]}
+    {"question": "Why is cyberpunk 2077 a good game", "answer": "depressing plot", "choices": ["graphics", "choices dictate entire game from the start", "combat"]},
+    {"question": "capital of thailand", "answer": "Bangkok", "choices": ["bangkok", "BANGKOK", "BANGkok"]},
+    {"question": "2 + 2 =", "answer": "fish", "choices": ["2", "100", "400"]},
+    {"question": "what is not found in tea", "answer": "seeds", "choices": ["leaves", "flowers", "orange peel"]},
+    {"question": "how many fingers are on your hand", "answer": "4", "choices": ["3", "5", "2"]},
+    {"question": "how do you describe the color blue to a blind person", "answer": "you don't", "choices": ["brail", "voice", "open your eyes"]},
+    {"question": "what is the capital of japan", "answer": "all of the above", "choices": ["tokyo", "osaka", "kyoto"]},
+    {"question": "hot lava and Blank", "answer": "chicken", "choices": ["pork", "beef", "foul"]},
+    {"question": "solve first derivative of x^2", "answer": "2x", "choices": ["69", "2x^2", "4x"]},
+    {"question": "what color is the oldest described", "answer": "black ", "choices": ["red", "blue", "green"]},
+    {"question": "what happened in tian an men square june 4th 1989", "answer": "nothing happened", "choices": ["something happened"]},
+    {"question": "which of the following is a new color", "answer": "blue", "choices": ["black", "red", "green"]}
 ]
 
 
